@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata about the document -->
+    <meta charset="UTF-8" /> <!-- Specifies character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Makes page responsive to screen size -->
+    <title>Interactive India Map</title> <!-- Title of the webpage -->
+
+    <!-- Link to Leaflet.js CSS for map styling -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+
+    <!-- Custom stylesheet for additional styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Leaflet.js library for map functionality -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div id="navigationBar">
+      <div>
+        <!-- Input field for location search -->
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Enter a location (e.g., Mahim)"
+        />
+        <!-- Button to trigger location search -->
+        <button id="searchButton">Search</button>
+      </div>
+      <!-- Button to locate user's current position -->
+      <button id="locateButton" onclick="locateUser()">Locate Me</button>
+    </div>
+
+    <!-- Container for the interactive map -->
+    <div id="map"></div>
+
+    <!-- External JavaScript file for map functionality -->
+    <script src="script.js"></script>
+
+    <!-- Footer with attribution -->
+    <footer id="footer">
+      Icons by
+      <a href="https://www.flaticon.com/authors/author-name" target="_blank">
+        Author Name
+      </a>
+      from
+      <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>.
+    </footer>
+  </body>
+</html>

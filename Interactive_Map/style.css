@@ -1,0 +1,89 @@
+/* General styling for the body */
+body {
+  font-family: Arial, sans-serif; /* Sets a clean, sans-serif font */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  height: 100%; /* Ensures the body occupies the full viewport height */
+}
+
+/* Styling for the navigation bar */
+#navigationBar {
+  position: fixed; /* Keeps the navigation bar fixed at the top of the page */
+  top: 0;
+  left: 0;
+  width: 100%; /* Spans the entire width of the viewport */
+  padding: 10px 20px; /* Adds space inside the navigation bar */
+  background-color: #1e3a8a; /* Sets a deep blue background */
+  color: white; /* White text for contrast */
+  display: flex; /* Enables flexible box layout for alignment */
+  justify-content: space-between; /* Spreads items across the bar */
+  align-items: center; /* Vertically centers items */
+  z-index: 9999; /* Ensures the navigation bar is always on top */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+/* Center alignment for content within the navigation bar */
+#navigationBar .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* Allows flexible growth if needed */
+}
+
+/* Input field styling in the navigation bar */
+#navigationBar input {
+  padding: 8px; /* Adds space inside the input field */
+  width: 250px; /* Fixed width for the input field */
+  font-size: 16px; /* Makes the text easier to read */
+  border: 1px solid #d1d5db; /* Adds a light gray border */
+  border-radius: 5px; /* Rounds the corners of the input field */
+  outline: none; /* Removes default outline on focus */
+}
+
+/* Input field styling on focus */
+#navigationBar input:focus {
+  border-color: #93c5fd; /* Changes border color to light blue */
+  box-shadow: 0 0 5px rgba(147, 197, 253, 0.8); /* Adds a subtle glow effect */
+}
+
+/* Button styling in the navigation bar */
+#navigationBar button {
+  padding: 8px 12px; /* Adds space inside the button */
+  background-color: #10b981; /* Sets a green background */
+  color: white; /* White text for contrast */
+  border: none; /* Removes default border */
+  border-radius: 5px; /* Rounds the corners */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Button hover effect */
+#navigationBar button:hover {
+  background-color: #059669; /* Darkens the green on hover */
+}
+
+/* Styling for the "Locate Me" button */
+#locateButton {
+  position: absolute; /* Positions the button within the navigation bar */
+  top: 10px; /* Aligns the button with the top padding */
+  right: 60px; /* Sets distance from the right edge */
+  padding: 10px; /* Adds padding inside the button */
+  background-color: #10b981; /* Green background */
+  color: white; /* White text for contrast */
+  border: none; /* Removes default border */
+  border-radius: 5px; /* Rounds the corners */
+  cursor: pointer; /* Pointer cursor for interactivity */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect for the "Locate Me" button */
+#locateButton:hover {
+  background-color: #059669; /* Darker green on hover */
+}
+
+/* Styling for the map container */
+#map {
+  height: calc(100vh - 60px); /* Ensures the map occupies the remaining viewport height */
+  width: 100%; /* Occupies the full width of the viewport */
+  margin-top: 60px; /* Offsets the map to account for the height of the navigation bar */
+}
