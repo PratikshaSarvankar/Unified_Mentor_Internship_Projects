@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for character encoding and responsive design -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Dashboard</title>
+
+  <!-- FullCalendar CSS for scheduling appointments -->
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css" rel="stylesheet">
+
+  <!-- Custom CSS for Teacher Dashboard -->
+  <link rel="stylesheet" href="teacher-dashboard.css">
+</head>
+<body>
+  <!-- Background particles animation -->
+  <div id="particles-js"></div>
+
+  <!-- Dashboard layout -->
+  <div class="dashboard">
+    <!-- Header section -->
+    <header>
+      <h1>Teacher Dashboard</h1>
+      <!-- Logout button -->
+      <button id="logout">Logout</button>
+    </header>
+
+    <main>
+      <!-- Section for scheduling appointments -->
+      <section id="schedule-appointment">
+        <h2>Schedule Appointment</h2>
+        <!-- FullCalendar will render the calendar here -->
+        <div id="calendar"></div>
+      </section>
+
+      <!-- Section for viewing and managing appointment requests -->
+      <section id="appointment-requests">
+        <h2>Approve/Cancel Appointments</h2>
+        <!-- List of appointment requests will be dynamically generated here -->
+        <ul id="appointmentList">
+          <!-- Appointment requests will be displayed here -->
+        </ul>
+      </section>
+
+      <!-- Section for viewing and managing messages -->
+      <section id="messages">
+        <h2>Messages</h2>
+        <!-- Chat interface for messaging -->
+        <div id="messageList">
+          <!-- Messages will be dynamically added here -->
+        </div>
+      </section>
+
+      <!-- Section for viewing all appointments -->
+      <section id="all-appointments">
+        <h2>All Appointments</h2>
+        <!-- List of all appointments -->
+        <ul id="allAppointmentsList">
+          <!-- Appointment data will be displayed here -->
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <!-- Particles.js library for background animation -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- Configuration for particles.js -->
+  <script src="particles-config.js"></script>
+
+  <!-- Firebase libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+  <!-- Firebase configuration file -->
+  <script src="firebaseConfig.js"></script>
+
+  <!-- Authentication and user session management -->
+  <script src="auth.js"></script>
+
+  <!-- FullCalendar JavaScript for rendering and managing calendar -->
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
+
+  <!-- Custom JavaScript for Teacher Dashboard functionalities -->
+  <script src="teacher-dashboard.js"></script>
+</body>
+</html>

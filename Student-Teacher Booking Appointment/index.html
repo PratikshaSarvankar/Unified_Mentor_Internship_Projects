@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Particle background -->
+  <div id="particles-js"></div>
+
+  <!-- Registration container -->
+  <div class="container">
+    <h1>Registration</h1>
+    <form id="registerForm">
+      <!-- Name input -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <!-- Email input -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <!-- Password input -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter your password" required>
+
+      <!-- Role selection -->
+      <label for="role">Role:</label>
+      <select id="role" required>
+        <option value="">Select Role</option>
+        <option value="Student">Student</option>
+        <option value="Admin">Admin</option>
+      </select>
+
+      <!-- Submit button -->
+      <button type="submit">Register</button>
+    </form>
+
+    <!-- Redirect to login -->
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="particles-config.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="firebaseConfig.js"></script>
+  <script src="auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Charset and Viewport for responsive design -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Particles effect container -->
+  <div id="particles-js"></div>
+
+  <!-- Main dashboard container -->
+  <div class="container">
+    <h1>Admin Dashboard</h1>
+
+    <!-- Logout Button -->
+    <button id="logout">Logout</button>
+
+    <!-- Add Teacher Form Section (hidden initially) -->
+    <div id="teacherFormContainer" class="form-container hidden">
+      <h2>Register Teacher</h2>
+      <form id="teacherForm">
+        <!-- Teacher Name input field -->
+        <label for="teacherName">Name:</label>
+        <input type="text" id="teacherName" placeholder="Enter teacher's name" required>
+
+        <!-- Teacher Email input field -->
+        <label for="teacherEmail">Email:</label>
+        <input type="email" id="teacherEmail" placeholder="Enter teacher's email" required>
+
+        <!-- Teacher Password input field -->
+        <label for="teacherPassword">Password:</label>
+        <input type="password" id="teacherPassword" placeholder="Enter teacher's password" required>
+
+        <!-- Subject input field -->
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" placeholder="Enter subject" required>
+
+        <!-- Department input field -->
+        <label for="department">Department:</label>
+        <input type="text" id="department" placeholder="Enter department" required>
+
+        <!-- Submit Button for the teacher registration -->
+        <button type="submit">Register Teacher</button>
+      </form>
+    </div>
+
+    <!-- Edit Teacher Form Section (hidden initially) -->
+    <div id="editTeacherFormContainer" class="form-container hidden">
+      <h2>Edit Teacher</h2>
+      <form id="editTeacherForm">
+        <!-- Hidden input to store teacher ID for editing -->
+        <input type="hidden" id="editTeacherId">
+
+        <!-- Edit Teacher Name input field -->
+        <label for="editTeacherName">Name:</label>
+        <input type="text" id="editTeacherName" placeholder="Enter teacher's name" required>
+
+        <!-- Edit Teacher Email input field -->
+        <label for="editTeacherEmail">Email:</label>
+        <input type="email" id="editTeacherEmail" placeholder="Enter teacher's email" required>
+
+        <!-- Edit Subject input field -->
+        <label for="editTeacherSubject">Subject:</label>
+        <input type="text" id="editTeacherSubject" placeholder="Enter subject" required>
+
+        <!-- Edit Department input field -->
+        <label for="editTeacherDepartment">Department:</label>
+        <input type="text" id="editTeacherDepartment" placeholder="Enter department" required>
+
+        <!-- Submit Button to update teacher details -->
+        <button type="submit">Update Teacher</button>
+      </form>
+    </div>
+
+    <!-- Table for displaying registered teachers -->
+    <h2>Registered Teachers</h2>
+    <table id="teachersTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Subject</th>
+          <th>Department</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="teachersList"></tbody>
+    </table>
+
+    <!-- Table for displaying student registration approval status -->
+    <h2>Approve Student Registration</h2>
+    <table id="studentsTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Approved</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="studentsList"></tbody>
+    </table>
+  </div>
+
+  <!-- Firebase Scripts for Firestore and Authentication -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- Particles.js configuration file -->
+  <script src="particles-config.js"></script>
+  <!-- Firebase Core Library -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <!-- Firebase Authentication Library -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <!-- Firebase Firestore Library -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+  <!-- Custom Firebase Configuration Script -->
+  <script src="firebaseConfig.js"></script>
+  <!-- Admin Dashboard Script that contains functionality for the admin -->
+  <script src="admin-dashboard.js"></script>
+</body>
+
+</html>
