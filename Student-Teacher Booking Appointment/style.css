@@ -1,0 +1,230 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1f4068, #1b1b2f, #0077b6, #002244, #002D62); /* Changed sky blue to purple */
+  background-size: 300% 300%;
+  animation: backgroundAnimation 10s ease infinite;
+  color: #e4e4e4;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Particle background */
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;  /* Make sure the particles are behind the content */
+}
+
+/* Main container */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(40, 40, 55, 0.95);
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #0077b6, #9b59b6, #00b4d8); /* Adjusted gradient */
+  background-size: 300% 300%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  animation: gradientMove 4s ease infinite;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+/* Form labels and inputs */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  box-sizing: border-box;  /* Ensures padding doesn't affect width */
+}
+
+input, select {
+  background-color: #32324d;
+  color: #e4e4e4;
+}
+
+/* Adjust padding to ensure spacing inside the input */
+input {
+  padding-right: 15px; /* Added padding to the right */
+}
+
+/* Button styles */
+button {
+  background: linear-gradient(90deg, #0077b6, #00b4d8, #9b59b6); /* Adjusted gradient */
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  background-size: 300% 300%;
+  animation: gradientMove 5s ease infinite;
+}
+
+button:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
+
+/* Link styles */
+a {
+  color: #9b59b6;  /* Adjusted to match the new gradient */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #00b4d8;
+}
+
+/* Table Styles */
+table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  max-width: 100%; /* Prevent overflow by limiting maximum width */
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: rgba(40, 40, 55, 0.95);
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  overflow-x: auto; /* Add horizontal scroll for overflow prevention */
+  display: block; /* Allows scroll for overflowing content */
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #555;
+  word-wrap: break-word; /* Break long words for better fit */
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+td {
+  color: #e4e4e4;
+}
+
+tr:hover {
+  background-color: #444;
+}
+
+tr:nth-child(even) {
+  background-color: #2c2c3e;
+}
+
+/* Hidden Edit Form */
+#editTeacherFormContainer {
+  display: none; /* Initially hidden */
+  background: rgba(40, 40, 55, 0.95);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Show Edit Form when toggled */
+#editTeacherFormContainer.show {
+  display: block; /* Display the form when the 'show' class is added */
+}
+
+#editTeacherFormContainer input, #editTeacherFormContainer select {
+  margin-bottom: 10px;
+}
+
+#editTeacherFormContainer button {
+  background: linear-gradient(90deg, #e74c3c, #c0392b, #9b59b6); /* Red gradient for the Edit button */
+}
+
+#editTeacherFormContainer button:hover {
+  filter: brightness(1.2);
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+  height: 10px; /* Set the height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9b59b6; /* Adjust thumb color to match the gradient */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7f4ca4; /* Darken thumb color on hover */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1); /* Light background for the track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent; /* Transparent corner */
+}
