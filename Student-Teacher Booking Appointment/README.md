@@ -192,7 +192,20 @@ You can visit the live web app by clicking on the link below:
 
 Here is a screenshots of the live application:
 
-![Web App Screenshot](./images/web-app-screenshot.png)
+### Registration Page
+![Registration Page](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/RegistrationPage.png)
+### Login Page
+![Login Page](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/LoginPage.png)
+### Admin Dashboard
+![Admin Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/AdminDashboard.png)
+### Teacher Dashboard
+![Teacher Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/TeacherDashboard1.png)
+
+![Teacher Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/TeacherDashboard2.png)
+### Student Dashboard
+![Student Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/StudentDashboard1.png)
+
+![Student Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/StudentDashboard2.png)
 
 
 ## Acknowledgements
