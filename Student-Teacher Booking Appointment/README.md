@@ -25,7 +25,7 @@ The **Student-Teacher Booking Appointment System** is a web-based application de
 The system uses Firebase for authentication, real-time database management, and user roles (Admin, Teacher, and Student). The app is built with HTML, CSS, JavaScript, and Firebase as the backend to handle data storage and user authentication.
 
 ## Features
-### 1. **Admin Dashboard Features**
+###  **Admin Dashboard Features**
 - **Teacher Registration**: Admin can register new teachers by providing their information such as **Name**, **Email**, **Password**, **Subject**, and **Department**.
 - **Teacher Information Management**: Admin can later **edit** or **delete** teacher information if needed.
 - **Approve/Deny Student Registration**: Admin reviews and approves student registrations before they can access the system.
@@ -33,20 +33,20 @@ The system uses Firebase for authentication, real-time database management, and 
 - **Access to Teacher Dashboard**: Since Admin registers teachers, they have access to the **Teacher Dashboard** and know the teacher's credentials. Admin can view the teacher’s details and appointments.
 - **No Access to Student Dashboard**: Admin does not have access to the **Student Dashboard**, as only students can manage their appointments and personal data after registration approval.
 
-### 2. **Teacher Dashboard Features**
+###  **Teacher Dashboard Features**
 - **Set Availability (Date)**: Teachers can set their availability by selecting specific **dates** when they are available for appointments.
 - **Approve/Cancel Appointments**: Teachers can approve or cancel student appointments based on their availability.
 - **View Messages**: Teachers can view messages sent by students, allowing for better communication regarding appointments or other matters.
 - **View Approved Appointments (Names)**: Teachers can see a list of all approved appointments, including the **names** of the students and the date of the appointment.
 
-### 3. **Student Dashboard Features**
+###  **Student Dashboard Features**
 - **Search Teachers**: Students can search for teachers by **Name** or **Department** to find the right teacher for their needs.
 - **View Teacher Availability**: Once a teacher is selected, the student can view the teacher's calendar, which shows the available **dates**.
 - **Book Appointment**: After selecting an available date, students can book an appointment with the teacher for that specific date.
 - **Send Message to Teacher**: Students can send messages to teachers for inquiries or to discuss appointment-related matters.
 - **View Approved Appointments**: Students can see a list of all their **approved appointments**, including the appointment date and teacher name.
 
-### 5. **Other Features**
+###  **Other Features**
 - **Firebase Integration**: The system uses Firebase for storing real-time data, such as user registration details, appointment schedules, and messages. All data is synchronized across all devices.
 - **Role-based Authentication**: Users are authenticated based on their role (Admin, Teacher, Student) to ensure appropriate access to features.
 - **Registration Approval**: Students can only log in after their registration has been approved by the Admin.
