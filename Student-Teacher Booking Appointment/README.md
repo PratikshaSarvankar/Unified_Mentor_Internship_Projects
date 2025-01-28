@@ -66,7 +66,7 @@ This section provides an overview of the system architecture for the **Student-T
 
 Below is the detailed architecture for the application:
 
-![System Architecture](assets/images/system_architecture.png)
+![System Architecture](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/SystemArchitecture.png?raw=true)
 
 The system involves:
 - **Admin:** Registers teachers, approves student registration, and manages teacher/student data.
