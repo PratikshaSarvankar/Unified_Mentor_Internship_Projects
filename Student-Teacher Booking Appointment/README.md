@@ -137,7 +137,7 @@ Install dependencies
   npm install
 ```
  **Reminder:**  
-   Create and add your `firebaseConfig.js` file as mentioned in the [Firebase Setup](#Prerequisites-Setup) section.
+   Create and add your `firebaseConfig.js` file as mentioned in the Firebase Setup section.
 
 Start the server
 
