@@ -4,7 +4,7 @@
 
 
 ## Table of Contents
-- [Introduction](#clinic-management-system )
+- [Introduction](#introduction)
 - [Features](#features)
   - [Doctor Dashboard Features](#doctor-dashboard-features)
   - [Receptionist Dashboard Features](#receptionist-dashboard-features)
@@ -18,7 +18,7 @@
 - [Screenshot of the live application](#screenshot-of-the-live-application)
 - [Acknowledgements](#acknowledgements)
 - [Contact Information](#contact-information)
-## Clinic Management System  
+## Introduction
 
 The **Clinic Management System** is a web-based application designed to streamline patient registration, doctor consultations, and billing management. The system enables **receptionists** to register new patients, manage appointments, and generate bills, while **doctors** can view patient details and provide prescriptions. Receptionists can enter patient details such as **Name, Age, Contact, and Reason for Visit**, generating a **unique token** for each patient. Once a doctor provides a prescription, the **Billing Section** allows receptionists to generate bills only for prescribed patients, including **patient details, prescription, and a fixed charge of ₹100**.  
 
