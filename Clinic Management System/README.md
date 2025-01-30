@@ -4,7 +4,7 @@
 
 
 ## Table of Contents
-- [Introduction](#introduction)
+- [Introduction](#clinic-management-system )
 - [Features](#features)
   - [Doctor Dashboard Features](#doctor-dashboard-features)
   - [Receptionist Dashboard Features](#receptionist-dashboard-features)
@@ -190,17 +190,17 @@ Here is a screenshots of the live application:
 ![Registration Page](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Clinic%20Management%20System/Screenshots/Indexpage.png)
 
 ### Login Page
-![Login Page](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/Loginpage.png)
+![Login Page](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Clinic%20Management%20System/Screenshots/Loginpage.png)
 
 ### Doctor Dashboard
-![Doctor Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/Doctor_Dashboard1.png)
+![Doctor Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Clinic%20Management%20System/Screenshots/Doctor_Dashboard1.png)
 
-![Doctor Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/Doctor_Dashboard2.png)
+![Doctor Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Clinic%20Management%20System/Screenshots/Doctor_Dashboard2.png)
 
 ### Receptionist Dashboard
-![Receptionist Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/Receptionist_Dashboard1.png)
+![Receptionist Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Clinic%20Management%20System/Screenshots/Receptionist_Dashboard1.png)
 
-![Receptionist Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/Receptionist_Dashboard2.png)
+![Receptionist Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Clinic%20Management%20System/Screenshots/Receptionist_Dashboard2.png)
 
 
 ## Acknowledgements
