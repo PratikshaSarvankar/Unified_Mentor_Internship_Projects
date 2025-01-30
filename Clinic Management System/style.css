@@ -1,0 +1,149 @@
+/* Universal reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    color: #333;
+    display: flex;
+    justify-content: center; /* Horizontally centers the form */
+    align-items: center; /* Vertically centers the form */
+    min-height: 100vh; /* Ensures body takes up full viewport height */
+    background: #f0f4f8; /* Soft light background */
+}
+
+/* Background video */
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire screen */
+    z-index: -1; /* Keeps the video behind the form */
+    filter: blur(4px); /* Reduced blur for a more subtle effect */
+}
+
+/* Form container styles */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly less transparent */
+    backdrop-filter: blur(5px); /* Softer frosted glass effect */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    z-index: 1;
+    animation: fadeIn 2s ease-out; /* Fade-in animation */
+}
+
+/* Fade-in animation for form */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Heading styles */
+h1 {
+    font-size: 30px; /* Slightly smaller heading */
+    color: #4c6a92; /* Soft bluish-grey */
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 0 8px rgba(76, 106, 146, 0.2); /* Softer glow */
+}
+
+/* Text styles for "Fill in your details to create an account" */
+p {
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 10px; /* Reduced space between paragraph and label */
+}
+
+/* Label styles */
+label {
+    font-size: 20px; /* Increased font size for labels */
+    font-weight: 600; /* Bold labels */
+    color: #4c6a92; /* Soft bluish-grey color */
+    margin-bottom: 5px; /* Reduced space between label and input */
+    display: block; /* Ensure labels are block-level */
+    margin-top: 10px; /* Added margin to top for some space */
+}
+
+/* Input and Select styles */
+input, select {
+    width: 100%;
+    padding: 16px;
+    margin: 5px 0 15px 0; /* Reduced margin to decrease distance */
+    border-radius: 10px;
+    border: 2px solid #ccd6e0;
+    font-size: 20px;
+    background-color: #f4f7fa;
+    transition: 0.3s ease;
+}
+
+/* Focused input and select styles */
+input:focus, select:focus {
+    outline: none;
+    border-color: #4c6a92; /* Highlight on focus */
+    box-shadow: 0 0 8px rgba(76, 106, 146, 0.3);
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    padding: 18px;
+    background-color: #4c6a92;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #2e4458;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(76, 106, 146, 0.3);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Links (for registration and login page) */
+a {
+    color: #4c6a92;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2e4458;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 30px;
+        max-width: 85%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    input, select, button {
+        font-size: 20px;
+    }
+}

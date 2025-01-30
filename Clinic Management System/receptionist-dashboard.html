@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receptionist Dashboard</title>
+    <link rel="stylesheet" href="receptionist-dashboard.css">
+</head>
+<body>
+  <!-- Background Video -->
+   <video autoplay muted loop id="bg-video">
+       <source src="backgroundflower.mp4" type="video/mp4">
+       Your browser does not support the video tag.
+   </video>
+    <div class="dashboard-container">
+        <h1>Welcome, Receptionist</h1>
+
+        <h2>Register a New Patient</h2>
+        <form id="patientForm">
+            <label for="patientName">Name</label>
+            <input type="text" id="patientName" required>
+            <label for="patientAge">Age</label>
+            <input type="number" id="patientAge" required>
+            <label for="patientContact">Contact</label>
+            <input type="tel" id="patientContact"  required pattern="\d{10}" maxlength="10">
+            <label for="visitReason">Reason</label>
+            <textarea id="visitReason" required></textarea>
+            <button type="submit">Generate Token</button>
+        </form>
+        <h3>Token: <span id="generatedToken"></span></h3>
+
+        <!-- Billing Section -->
+        <div id="billing-section">
+            <h2>Billing</h2>
+
+            <!-- Dropdown for Prescription -->
+
+            <!-- Dropdown for Billing -->
+            <label for="billingPatientSelect">Select Patient for Billing:</label>
+            <select id="billingPatientSelect">
+                <option value="">-- Select Patient --</option>
+            </select>
+
+            <!-- Button to Generate Bill -->
+            <button id="generateBillButton">Generate Bill</button>
+
+            <!-- Section to display the generated bill -->
+            <div id="billDetails"></div>
+        </div>
+
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="firebaseConfig.js"></script>
+    <script src="receptionist.js"></script>
+</body>
+</html>

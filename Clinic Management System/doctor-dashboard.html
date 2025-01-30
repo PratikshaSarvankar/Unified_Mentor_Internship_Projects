@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Dashboard</title>
+    <link rel="stylesheet" href="doctor-dashboard.css">
+</head>
+<body>
+  <!-- Background Video -->
+   <video autoplay muted loop id="bg-video">
+       <source src="backgroundflower.mp4" type="video/mp4">
+       Your browser does not support the video tag.
+   </video>
+    <div class="dashboard-container">
+        <h1>Welcome, Doctor</h1>
+        <h2>Patient Details</h2>
+        <div id="patientList"></div>
+
+        <h2>Manage Prescriptions</h2>
+        <div class="prescription-container">
+            <label for="patientSelect">Select Patient</label>
+            <select id="patientSelect" required></select>
+
+            <label for="prescriptionInput">Prescription</label>
+            <textarea id="prescriptionInput" placeholder="Enter prescription details" required></textarea>
+
+            <button id="savePrescriptionButton">Save Prescription</button>
+        </div>
+
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="firebaseConfig.js"></script>
+    <script src="doctor.js"></script>
+</body>
+</html>
