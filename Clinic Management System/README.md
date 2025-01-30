@@ -10,7 +10,7 @@
   - [Receptionist Dashboard Features](#receptionist-dashboard-features)
   - [Other Features](#other-features)
 - [Technologies Used](#technologies-used)
-- [System Architecture](#https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Clinic%20Management%20System/SystemArchitecture.png?raw=true)
+- [System Architecture](#system-architecture)
 - [Prerequisites/Setup](#prerequisitessetup)
 - [Run Locally](#run-locally)
 - [Deployment](#deployment)
@@ -56,11 +56,11 @@ The system uses **Firebase** for authentication, real-time database management, 
 
 ## System Architecture
 
-This section provides an overview of the system architecture for the **Student-Teacher Booking Appointment System**. The system has three main roles: **Admin**, **Teacher**, and **Student**, each with different functionalities and access rights.
+This section provides an overview of the system architecture for the **Clinic Management System**. The system has two main roles: **Doctor**, **Receptionist** each with different functionalities and access rights.
 
 Below is the detailed architecture for the application:
 
-![System Architecture](assets/images/system_architecture.png)
+![System Architecture](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Clinic%20Management%20System/SystemArchitecture.png?raw=true)
 
 The system involves:
 - **Admin:** Registers teachers, approves student registration, and manages teacher/student data.
