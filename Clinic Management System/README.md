@@ -187,15 +187,20 @@ Here is a screenshots of the live application:
 Here is a screenshots of the live application:
 
 ### Registration Page
-![Registration Page](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/RegistrationPage.png)
-### Login Page
-![Login Page](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/LoginPage.png)
-### Admin Dashboard
-![Admin Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/AdminDashboard.png)
-### Teacher Dashboard
-![Teacher Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/TeacherDashboard1.png)
+![Registration Page](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Clinic%20Management%20System/Screenshots/Indexpage.png)
 
-![Teacher Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/TeacherDashboard2.png)
+### Login Page
+![Login Page](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/Loginpage.png)
+
+### Doctor Dashboard
+![Doctor Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/Doctor_Dashboard1.png)
+
+![Doctor Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/Doctor_Dashboard2.png)
+
+### Receptionist Dashboard
+![Receptionist Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/Receptionist_Dashboard1.png)
+
+![Receptionist Dashboard](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Student-Teacher%20Booking%20Appointment/Screenshots/Receptionist_Dashboard2.png)
 
 
 ## Acknowledgements
