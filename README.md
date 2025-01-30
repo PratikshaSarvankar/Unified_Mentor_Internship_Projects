@@ -1,5 +1,4 @@
 # Unified_Mentor_Internship_Projects
-# My Projects Repository
 
 This repository contains three projects that I have worked on:
 
