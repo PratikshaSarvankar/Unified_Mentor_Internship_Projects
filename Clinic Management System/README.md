@@ -10,7 +10,7 @@
   - [Receptionist Dashboard Features](#receptionist-dashboard-features)
   - [Other Features](#other-features)
 - [Technologies Used](#technologies-used)
-- [System Architecture](#system-architecture)
+- [System Architecture](#https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Clinic%20Management%20System/SystemArchitecture.png?raw=true)
 - [Prerequisites/Setup](#prerequisitessetup)
 - [Run Locally](#run-locally)
 - [Deployment](#deployment)
