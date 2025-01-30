@@ -18,7 +18,7 @@ This repository contains three projects that I have worked on:
 ---
 
 ## 📄 Offer Letter
-My offer letter is included in this repository. You can view it [here](offer_letter.pdf).
+My offer letter is included in this repository. You can view it [here](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Offer_Letter.pdf).
 
 ---
 
