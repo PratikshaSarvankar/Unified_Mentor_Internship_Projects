@@ -3,18 +3,18 @@
 This repository contains three projects that I have worked on:
 
 ## 1. Interactive Map 🗺️
-- A web-based interactive map using **Leaflet.js** for visualization and real-time data representation.
-- **Technologies Used:** HTML, CSS, JavaScript.
+- A web-based map that allows users to explore locations.
+- **Technologies Used:** HTML, CSS, JavaScript, Leaflet.js.
 
 ## 2. Clinic Management System 🏥
-- A system to facilitate communication between a doctor and a receptionist, enabling patient management, token generation, and prescription handling.
+- A system for managing patient appointments, prescriptions, and billing.
 - **Technologies Used:** HTML, CSS, JavaScript, Firebase.
 
 ## 3. Student-Teacher Booking Appointment 📅
-- A web-based system that allows students to book appointments with teachers, manage schedules, and send messages.
+- A web-based system for scheduling and managing student-teacher appointments.
 - **Technologies Used:** HTML, CSS, JavaScript, Firebase.
 
----
+
 
 ## 📄 Offer Letter
 My offer letter is included in this repository. You can view it [here](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Offer_Letter.pdf).
