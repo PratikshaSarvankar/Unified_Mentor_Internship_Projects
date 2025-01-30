@@ -62,10 +62,6 @@ Below is the detailed architecture for the application:
 
 ![System Architecture](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Clinic%20Management%20System/SystemArchitecture.png?raw=true)
 
-The system involves:
-- **Admin:** Registers teachers, approves student registration, and manages teacher/student data.
-- **Teacher:** Sets availability, approves/cancels appointments, views approved appointments and views messages.
-- **Student:** Searches for teachers, views availability, books appointments, sends messages, and views approved appointments.
 ## Prerequisites/Setup
 Before you start, make sure you have the following prerequisites:
 
