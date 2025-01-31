@@ -182,9 +182,6 @@ You can visit the live web app by clicking on the link below:
 
 Here is a screenshots of the live application:
 
-## Screenshot of the live application
-
-Here is a screenshots of the live application:
 
 ### Registration Page
 ![Registration Page](https://github.com/PratikshaSarvankar/Unified_Mentor_Internship_Projects/blob/main/Clinic%20Management%20System/Screenshots/Indexpage.png)
